@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color:white;
+            Animation-name:colours;
+            animation-duration:50s;
+        }
+        @keyframes colours {
+            0% {background-color:white;}
+            20% {background-color:yellow;}
+            40% {background-color:red;}
+            60% {background-color:green;}
+            80% {background-color:purple;}
+            100% {background-color:orangered;}
+        }
+        .fo {
+            background-color:red;
+            padding:10px;
+            color:white;
+            padding:5px;
+            padding-left:30px;
+        }
+        .navi {
+            float:right;
+            padding-right:50px;
+        }
+       .im {
+        float:left;
+        width:200px;
+        height:75px;
+        padding-right:40px;
+        padding-top:10px;
+       }
+       .log {
+        background-color:red;
+        width:600px;
+        height:270px;
+        padding-top:5px;
+        padding-left:40px;
+        margin-left:450px;
+        margin-top:120px;
+        color:white;
+        filter:drop-shadow(10px 10px 10px black);
+       }
+       .pass {
+        float:right;
+        padding-right:170px;
+        margin-top:-58px;
+        
+       }
+       .but {
+        float:right;
+        margin-top:-37px;
+        margin-right:30px;
+        height:37px;
+        width:80px;
+        border-radius:10px;
+       }
+       .but:hover {
+        background-color:pink;
+       }
+       .u2 {
+        height:30px;
+        width:200px;
+        border-radius:5px;
+        
+       }
+       .p2 {
+        height:30px;
+        width:180px;
+        border-radius:5px;
+        
+       }
+       .u1 {
+        font-size:20px;
+       }
+       .p1 {
+        font-size:20px;
+       }
+       .forgot {
+        color:white;
+        text-decoration:none;
+       }
+       .forgot:hover {
+        text-decoration:underline;
+       }
+       .f {
+        background-color:red;
+        height:135px;
+        margin-top:52px;
+       }
+       .img2 {
+        width:200px;
+        height:85px;
+        padding:25px;
+       }
+       .pa {
+        float:right;
+        padding-right:950px;
+        color:white;
+        font-family:serif,georgia;
+        font-size:20px;
+        text-decoration:none;
+       }
+    </style>
+</head>
+<body>
+    <header class="fo">
+        <nav class="navi">
+            <ul>
+                <p>You are not Logged inn. (<a href="#">Login</a>)</p>
+            </ul>
+           </nav>
+           <img class="im" src="C:\Users\bmapo\Downloads\nustLearning.png">
+       <h1>Welcome to NUST</h1>
+    </header>
+    <div class="log">
+        <h1>Login into your account</h1>
+        <br/>
+        <div>
+        <label class="u1">Username</label><br/>
+        <input class="u2" type="text"/> <br/>
+    </div>
+        <div class="pass">
+        <label class="p1">Password</label> <br/>
+        <input class="p2" type="password"/>
+        </div>
+      <button class="but" type="button">Login</button>
+      <br/>
+    <a class="forgot" href="#">Forgotten your Username or Password?</a>
+    </div>
+    <br/>
+    <footer class="f">
+        <img class="img2" src="C:\Users\bmapo\Downloads\nustLearning.png">
+        <p class="pa">Follow us<br/>
+            <br/>
+        Facebook<br/>
+        Twitter</p>
+    </footer>
+</body>
+</html>
